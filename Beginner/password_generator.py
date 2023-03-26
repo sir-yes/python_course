@@ -50,4 +50,4 @@ random.shuffle(password3)
 password3_random = ""
 for i in password3:
     password3_random += i
-print(password3_random)
+print(f"Different Ordered Hard: {password3_random}")
