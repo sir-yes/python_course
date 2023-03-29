@@ -3,6 +3,7 @@ import os
 who_bid_what = {}
 
 def winner():
+    """Take in a dictionary of name and number and output the name and bid amount of the highest bidder."""
     winner = ""
     winning_bid = 0
     for i in who_bid_what:
@@ -23,4 +24,3 @@ while initialize:
     else:
         initialize = False
         winner()
-
