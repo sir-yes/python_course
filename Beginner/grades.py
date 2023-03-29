@@ -10,6 +10,7 @@ student_grades = {}
 
 for student in student_scores:
     print(f"{student} {student_scores[student]}")
+    # Add score = student_scores[student] to make code more concise below
     if student_scores[student] > 90:
         student_grades[student] = "Outstanding"
     elif student_scores[student] > 80:
